@@ -16,7 +16,7 @@ data_hero$Pick.Rate <- as.numeric(gsub("%", "", data_hero$Pick.Rate))
 data_hero$Matches.Played <- as.numeric(gsub("\\D", "", data_hero$Matches.Played))
 data_hero$Win.Rate <- as.numeric(gsub("%", "", data_hero$Win.Rate))
 
-message('Input Data to MongoDB Atlas')
+message('Input Data ke MongoDB Atlas')
 atlas_conn <- mongo(
   collection = Sys.getenv("ATLAS_COLLECTION"),
   db         = Sys.getenv("ATLAS_DB"),
