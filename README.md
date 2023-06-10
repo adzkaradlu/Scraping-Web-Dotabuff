@@ -13,7 +13,15 @@ Project kali ini dilakukan scraping pada website https://www.dotabuff.com/heroes
 ## :clipboard: **Dokumen**
 Berikut ini adalah contoh dokumen pada MongoDB :
 
-{"_id":{"$oid":"64842b77084ba1d08201c53d"},"Hero_1":"Silencer","Matches_Played":{"$numberDouble":"506439.0"},"Pick_Rate":{"$numberDouble":"15.81"},"Win_Rate":{"$numberDouble":"53.61"},"KDA_Ratio":{"$numberDouble":"2.73"}}
+```
+{"
+_id":{"$oid":"64842b77084ba1d08201c53d"},
+"Hero_1":"Silencer",
+"Matches_Played":{"$numberDouble":"506439.0"},
+"Pick_Rate":{"$numberDouble":"15.81"},
+"Win_Rate":{"$numberDouble":"53.61"},
+"KDA_Ratio":{"$numberDouble":"2.73"}}
+```
 
 ## :walking: **Pengembang**
 **Adzkar Adlu Hasyr Suruddin (G1501211033)**
