@@ -23,6 +23,9 @@ Berikut ini adalah contoh dokumen pada MongoDB :
 "KDA_Ratio":{"$numberDouble":"2.73"}
 }
 ```
+## :computer: **Visualisasi**
+
+link visualisasi dari data yang telah di scraping : https://rpubs.com/nano31/1053733
 
 ## :walking: **Pengembang**
 **Adzkar Adlu Hasyr Suruddin (G1501211033)**
